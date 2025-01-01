@@ -1,6 +1,10 @@
 # 농산물 가격 예측을 위한 딥러닝 모델 개발 : 날씨와 경제 변수를 중심으로
 
-윤민정, 최수현, 이소현 and 김희웅. (2024). 농산물 가격 예측을 위한 딥러닝 모델 개발: 날씨와 경제 변수를 중심으로. 경영정보학연구, 26(3), 221-237.
+농산물 가격 예측을 위한 딥러닝 모델 개발: 날씨와 경제 변수를 중심으로. 경영정보학연구, 26(3), 221-237.
+ - 저자 : 윤민정, 최수현, 이소현, 김희웅
+ - 학회 : 한국경영정보학회, 2024.
+ - 날짜 : 2024
+ - 논문 링크 : [[pdf]](https://file1-earticle-net.ap2.proxy.openathens.net/PDF/Direct?key=qN3VkTW4I11J4rsBEu/TxtTiDiTFmZ3E1v0qTqKAvNtqshPFubdBQlnntLtP+FNycn5A5vjz5Z301OTuz7GhkC6gcjMwHuhi2tQOu/zv5gTPjUFnukq8KERSc5IwfXyx5nn2qw/LSRVL0lE7hwKHKtb43ioHeavzJgH9ULjZDw7n5iVxy6jprRF5KlvYA90SO4RsFAf5lx3KYi+Mk/vigOtumM4nyRnyT9bw0zsX9ec=)
 
 [농산물 가격 예측을 위한 딥러닝 모델 개발: 날씨와 경제 변수를 중심으로](https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003113925)
 
