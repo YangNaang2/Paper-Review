@@ -23,7 +23,7 @@
 
 1. 광의 통화(M2) : 경제 내 통화량을 나타내는 지표
 M2▲  시장 유동성▲ 소비▲ 농산물 수요▲ 가격▲
-
+![image](https://github.com/YangNaang2/Paper-Review/blob/main/image.png)
 ![한국은행 금융/경제 스냅샷 사이트에서 확인한 M2](image.png)
 
 한국은행 금융/경제 스냅샷 사이트에서 확인한 M2
