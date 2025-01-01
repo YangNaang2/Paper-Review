@@ -24,6 +24,7 @@
 1. 광의 통화(M2) : 경제 내 통화량을 나타내는 지표
 M2▲  시장 유동성▲ 소비▲ 농산물 수요▲ 가격▲
 ![한국은행 금융/경제 스냅샷 사이트에서 확인한 M2](https://github.com/user-attachments/assets/aa8245cc-09d5-427d-833e-a7fe5f550353)
+
 한국은행 금융/경제 스냅샷 사이트에서 확인한 M2
 
 
@@ -34,6 +35,7 @@ M2▲  시장 유동성▲ 소비▲ 농산물 수요▲ 가격▲
 경제불확실성지수는 실시간으로 생성되는 뉴스 기사의 텍스트 데이터를 분석해 경제 흐름을 파악하는 것으로 매월 지수를 산출한다.
 
 ![KDI 한국 개발연구원 사이트](https://github.com/user-attachments/assets/df66caae-9eeb-404f-8ed6-64f1aa2fccfb)
+
 KDI 한국 개발연구원 사이트
 
 높은 경제불확성지수는 소비에 부정적인 영향 농산물 시정에 대한 투자 감소 및 수요 감소를 일으킨다.
@@ -41,14 +43,15 @@ KDI 한국 개발연구원 사이트
 1. **소비자 물가 상승률**
 소비자 물가 상승률은 소비자 물가지수의 전년 대비 변화율을 말한다. 소비자 물가지수는가구에서 일상생활을 영위하기 위해 구입하는 상품과 서비스의 가격 변동을 측정하기 위하여 작성되는 지수이다. 소비지출 중에서 구입 비중이 큰 458개 상품 및 서비스 품목들을 정하고 이를 대상으로 조사된 소비자 구입가격을 기준으로 산정된다.  가구의 소비구조 변화를 반영하기 위해 5년 주기로 지수를 개편한다.
 
-![정부 지표누리 국가발전지표 사이트](image%202.png)
+![정부 지표누리 국가발전지표 사이트](https://github.com/user-attachments/assets/1e7a967b-d9e7-4f45-a57e-26f963825b14)
 
 정부 지표누리 국가발전지표 사이트
 
 1. **소매 판매액 지수( Retail Sales Index, RSI):** 
 소비동향을 파악하기 위해 작성되는 지표. 백화점, 대형마트, 면세점, 슈퍼마켓, 전문소매점, 편의점 등 소매 판매점의 매월 판매금액을 조사하여 작성하는 통계
 
-![image.png](image%203.png)
+![image.png](https://github.com/user-attachments/assets/95d04a3a-ac20-4c67-b517-1f89a4c91904)
+
 
 **연구에서 사용된 주요 농사 변수**
 
@@ -95,7 +98,7 @@ EFA 과정
 
 ***<데이터 분할>***
 
-![image.png](image%204.png)
+![image.png](https://github.com/user-attachments/assets/f4338be1-211a-4a7e-b13c-b1d185a1167a)
 
 하이퍼 파라미터 최적화를 위해 그리드 서치(Grid Search)를 사용하였다.
 
@@ -121,7 +124,7 @@ scores_df[['params', 'mean_test_score', 'rank_test_score', \
            'split0_test_score', 'split1_test_score', 'split2_test_score']]
 ```
 
-![image.png](image%205.png)
+![image.png](https://github.com/user-attachments/assets/1a1e4db9-07e0-4e82-be14-e762047008a0)
 
 ***<데이터 학습>***
 
@@ -143,15 +146,15 @@ GRU 모델은 LSTM모델을 단순화시킨 것으로 파라미터 수를 줄여
 
 ***<학습 결과>***
 
-![image.png](image%208.png)
+![image.png](https://github.com/user-attachments/assets/03d897c7-16a0-4bdf-a0f1-d76e11907a0c)
 
 GRU모델의 성능이 더 우수하였다. 긴 시퀀스 데이터에서는 LSTM이 우수한 성능을 보이지만 짧고 간단한 시퀀스 데이터에서는  GRU가 더 빠르고 가볍기에 적합하기 때문이라고 분석하였다.
 
-![image.png](image%209.png)
+![image.png](https://github.com/user-attachments/assets/318bbaeb-4904-4c15-a68f-8e471eeae84f)
 
 날씨 변수만 포함하여 GRU모델을 학습 시켰을 때에는 경제 변수를 포함한 것과 차이가 보였다.
 
-![image.png](image%2010.png)
+![image.png](https://github.com/user-attachments/assets/c965d997-983a-40ef-a64c-65a284d14dd3)
 
 <논문 리뷰 후 생각>
 
